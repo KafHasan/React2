@@ -5,8 +5,8 @@ const [form,setform]=useState({username:'',password:''});
 const handleSubmit=async e=>{
     e.preventDefault();
     try{
-    //await axios.post("https://nodejs1-tau.vercel.app/api/auth/register",form);
-        await axios.post("http://localhost:5000/api/auth/register",form);
+    await axios.post("https://nodejs2-blush.vercel.app/api/auth/register",form);
+    //    await axios.post("http://localhost:5000/api/auth/register",form);
 
     alert("Registered successfully");
     }
